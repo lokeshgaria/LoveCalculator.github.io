@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ <!--google fonts link-->
+    <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+    <title>Love Calculator</title>
+    <style>
+        body{
+            background:url('  https://images.pexels.com/photos/4041241/pexels-photo-4041241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+            background-position: center;
+            position: relative;
+            background-size: cover;
+            font-family: 'Lovers Quarrel', cursive;
+            font-weight: bold;
+        }
+       
+        #heart{
+            font-size: 23px;
+        
+        }
+
+        .card{
+            width: 30%;
+            position: relative;
+            left: 35%;
+            top: 12%;
+            height: 50vh;
+            background-color: #dbdcde;
+            border: none;
+        }
+        
+        .card-header{
+            background-color: #dbdcde;
+            font-size: 3rem;
+            border: none;
+        }
+        .card-footer{
+            border: none;
+            position: relative;
+            top: 50%;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+         #name , #lname , #Lovevalue{
+             color: black;
+             font-size: larger;
+             font-weight:bold;
+             font-family: cursive;
+            
+         }
+         .btn{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+            width: 100%;
+            font-weight: bold;
+            margin-bottom: 2%;
+            
+         }
+             @media (max-width: 450px){
+                .card{
+            width: 66%;
+            left: 17%;
+            top: 21%;
+            }
+            #name , #lname{
+             position: relative;
+             top: -40px;
+             }
+             .btn{
+                 position: relative;
+                 top: -50px;
+             }
+             #Lovevalue{
+                 position: relative;
+                 top: -50px;
+             }
+
+             .card-footer{
+            width: 105%;
+            top: 60px;
+            height:40vh ;
+            left: -6px;
+            background-color: #d7d8da;
+           
+            
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="card    text-center">
+        <div class="card-header">Love Calculator</div>
+        <div class="card-body">
+             <form action="" class="form">
+                 <div class="form-group">
+                     <input class="text-center text-secondary form-control input"   type="text" name="" id="name" placeholder="Your Name 💕">
+                 </div>
+                  
+                 <div class="form-group">
+                    <input class="text-center form-control"   type="text" name="" id="lname" placeholder="His/Her Name 💕">
+                </div>
+                 
+                <div class=" button  m-auto ">
+                    <input class="btn btn-danger text-white  " type="button" value="Calculate" onclick="calculate()">
+                </div>
+                <div class="form-group">
+                    <input class="text-center form-control"   type="text" name="" id="Lovevalue" placeholder="Love Percentage 💘" >
+                </div>
+             </form>
+        </div>
+        <div class="card-footer" id="footer">God Bless your Relationship</div>
+      </div>
+
+      <script>
+
+        
+          function calculate(){
+            var name = document.getElementById('name').value;
+         var lname = document.getElementById('lname').value;
+          
+          if(name == ""){
+              alert("Please Enter your name");
+          }
+          else if(name.length <=2  ){
+              alert("Name length must be greater then 3 ");
+          }
+          else if(!isNaN(name)){
+              alert("Invalid Input");
+          }
+
+          if(lname == ""){
+              alert("Please Enter his/her name");
+          }
+          else if(lname.length <=2  ){
+              alert("Name length must be greater then 3 ");
+          }
+          else if(!isNaN(lname)){
+              alert("Invalid Input");
+          }
+            else{
+              var data = Math.random()*100;
+              data = Math.floor(data)+1;
+              if(data >=70){
+              document.getElementById('Lovevalue').value = data +"%";
+              document.getElementById('footer').innerHTML = "Congratulations 💞"+ " " +name +" "+" and "+" "+lname +" "+" you love each other like Romeo and Juliet";
+              }
+              if(data<70){
+                document.getElementById('Lovevalue').value = data +"%";
+              document.getElementById('footer').innerHTML = name +" "+ "and" +" "+ lname+ " "+  " You'll have to spend a lot of time together 💞 ";
+              }
+            }
+          }
+      </script>
+</body>
+</html>
+
+
